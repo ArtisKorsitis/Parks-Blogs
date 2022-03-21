@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Potta One';
+    font-style: normal;
+    src: url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+    font-weight: normal;
+}
+
+@media print{
+    div.menu {
+       display:none;
+    }
+    form{
+        display:none;
+    }
+    h3{
+        display: none;
+    }
+    .nesakartots{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+}
+
+html,body {
+    height: 100%;
+}
+
+html{
+    display:table;
+    margin:auto;
+}
+
+body {
+    background-color: #008421;
+    max-width: 1200px;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+article{
+    min-width: 900px;
+    margin-top:1em;
+    padding-left: 40px;
+    padding-right: 40px;
+    display:block;
+}
+
+#main-menu li{
+    display:inline;
+    padding-left: 100px;
+}
+
+a{
+    color: #FFC62F;
+    font-size: 18px;
+    font-weight: bold; 
+    line-height: 1.5em;
+    font-family: 'Potta One', cursive, sans-serif;
+    max-width : 600px;
+    margin-top:1em;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3em;
+}
+
+#pirmais{
+	font-size:25px;
+}
+
+#otrais{
+	font-style:italic;
+	font-size:25px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    color: #FFF3E6;
+    font-size: 20px;
+    line-height: 1.75em;
+    font-family: 'Potta One', cursive, sans-serif;
+    min-width: 900px;
+    margin-top:1em;
+}
+
+p.problema{
+    font-family: 'Potta One', cursive, sans-serif;
+    font-size: 14px;
+    text-align : center;
+}
+
+img{
+    min-width: 900px;
+    max-width: 1200px;
+    width: 80%;
+    height: 80%; 
+}
+
+div.attels{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+li{
+    color: #FFF3E6;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: 'Potta One', cursive, sans-serif;
+    max-width : 600px;
+    margin-top: 1em;
+}
+
+form{
+    color: #FFF3E6;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Potta One', cursive, sans-serif;
+    min-width: 900px;
+    margin-top:1em;
+}
+
+#jautajums2{
+    display: none;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+li.nesakartots{
+    font-size:12px;
+    font-family: 'Potta One', cursive, sans-serif;
+}
+
+
+h1, h2, h3{
+    color: white;
+    font-family: 'Potta One', cursive, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.5em;    
+}
